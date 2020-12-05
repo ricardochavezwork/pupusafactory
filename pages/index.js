@@ -5,47 +5,44 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>PupusaFactory</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Benvenuto su PupusaFactory.it
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Lavori in corso sulla nostra pagina...
+        </p>
+
+        <p className={styles.description}>
+          Seguici su :
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://www.facebook.com/pupusafactory/" target="_blank" className={styles.card}>
+            <h3>Facebook &rarr;</h3>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="m.me/pupusafactory" target="_blank"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Facebook Messenger &rarr;</h3>
+          </a>
+
+          <a href="https://www.instagram.com/pupusafactory.it/" target="_blank" className={styles.card}>
+            <h3>Instagram &rarr;</h3>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://twitter.com/pupusafactory" target="_blank"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>Twitter &rarr;</h3>
           </a>
         </div>
       </main>
