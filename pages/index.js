@@ -28,7 +28,7 @@ export default function Home() {
           </a>
 
           <a
-            href="m.me/pupusafactory" target="_blank"
+            href="https://m.me/pupusafactory" target="_blank"
             className={styles.card}
           >
             <h3>Facebook Messenger &rarr;</h3>
